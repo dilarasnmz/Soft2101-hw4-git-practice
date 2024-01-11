@@ -12,14 +12,17 @@ public class gitJava {
 
         if (first < second) {
             for (int i = first + 1; i < second; i++) {
-                System.out.print(i + " ");
+                if (i % 2 != 0) {
+                    System.out.print(i + " ");
+                }
             }
         } else {
             for (int i = second + 1; i < first; i++) {
-                System.out.print(i + " ");
+                if (i % 2 != 0) {
+                    System.out.print(i + " ");
+                }
             }
         }
+
     }
-
-
 }
